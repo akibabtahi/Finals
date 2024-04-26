@@ -1,0 +1,120 @@
+body{
+    background-color: #e7bfe1;
+}.logo {
+    width: 60%;
+}
+.cover {
+    text-align: center;
+}
+.cover2 {
+    width: 25%;
+}
+.innerStyle img{
+    width: 200px;
+    margin-left: 30px;
+}
+
+#findbox {
+    width: 200px; /* Adjust the width as needed */
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+.innerStyle {
+    margin: 10px;
+    padding: 11px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(155, 152, 152);
+    border-radius: 10px;
+}
+
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+button.btn.btn-primary {
+    background-color: #076f47;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+button.btn.btn-primary:hover {
+    background-color: #076f47;
+}
+
+
+#container button{
+    background-color: #e7e7e7cd;
+    color: #101010;
+    width: 120px; /* Adjust button width as needed */
+    height: 40px; /* Adjust button height as needed */
+    margin: 20px;
+    border: 1px solid #84888ecd; /* Corrected border color */
+}
+
+
+#container button:hover {
+    background-color: #c3aac0;
+}
+
+.footerclass {
+    text-align: center;
+    
+}
+#footer{
+    background-color: rgba(8, 47, 105, 0.444);
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    padding: 15px; 
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 7px;
+}
+
+/* Navbar link color */
+.navbar-nav .nav-link {
+    color: var(--navbar-color, #000000);
+}
+
+/* Navbar link hover color */
+.navbar-nav .nav-link:hover {
+    color: var(--navbar-hover-color, #8d2f87);
+}
+
+/* Navbar brand color */
+.navbar-brand {
+    color: var(--navbar-brand-color, #000000);
+}
+
+/* Navbar brand hover color */
+.navbar-brand:hover {
+    color: var(--navbar-brand-hover-color, #8d2f87);
+}
+li a:hover:not(.active) {
+    background-color: #fee0ff;
+    color: rgb(12, 0, 0);
+}
+
+
+footer {
+    background-color: #b0b1cf;
+    color: #ffffff;
+ position: fixed;
+    text-align: center;
+    font-size: small;
+    padding:  0;
+    text-align: center;
+    bottom: -20;
+    left: 0;
+    width: 100%;
+    font-size: small;
+}
+
+
